@@ -1,0 +1,45 @@
+### Lab Work 2: Installation of Python Programming Language on Windows
+
+#### Introduction
+Python is one of the most popular and versatile programming languages. To get started with Python on Windows, you need to download and install it on your system. This guide will walk you through the steps to install Python on a Windows machine.
+
+#### Steps for Installation
+
+1. **Download Python Installer**
+   - Open your web browser and visit the official Python website: [https://www.python.org/](https://www.python.org/).
+   - On the homepage, click on the "Downloads" section. It will automatically detect your operating system (Windows) and recommend the latest stable version of Python.
+   - Click on the download link for the latest version of Python (e.g., Python 3.x.x).
+
+2. **Run the Python Installer**
+   - Once the installer file is downloaded, navigate to your **Downloads** folder (or the folder where the installer is saved).
+   - Double-click on the installer to run it.
+   
+3. **Customize Installation (Optional)**
+   - In the installation window, make sure to check the box that says **"Add Python to PATH"** at the bottom before clicking "Install Now". This will make Python available from the command line.
+   - You can choose **Customize installation** if you want to modify installation settings (e.g., choosing a different installation location or enabling additional features).
+   
+4. **Complete Installation**
+   - Click on **Install Now** to start the installation process. It may take a few minutes to complete.
+   - Once the installation is complete, a window will appear showing the successful installation of Python.
+   - Click on **Close** to finish the installation process.
+
+5. **Verify Installation**
+   - To verify if Python has been successfully installed, open the **Command Prompt**:
+     - Press the **Windows key** and type **cmd** to search for the Command Prompt. Click to open it.
+   - In the Command Prompt, type the following command:
+     ```bash
+     python --version
+     ```
+     This will display the installed version of Python (e.g., `Python 3.x.x`).
+   - You can also check if Python's package manager `pip` is installed by typing:
+     ```bash
+     pip --version
+     ```
+
+6. **Installing Python IDE (Optional)**
+   - To make coding in Python easier, you can install an Integrated Development Environment (IDE) such as **PyCharm** or use a text editor like **Visual Studio Code**.
+   - For **PyCharm**, you can download it from [https://www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/).
+   - For **Visual Studio Code**, download it from [https://code.visualstudio.com/](https://code.visualstudio.com/).
+   
+#### Conclusion
+Python is now successfully installed on your Windows machine, and you are ready to start programming! You can use the **Command Prompt**, **IDLE** (which comes bundled with Python), or any IDE of your choice to write and run Python code.

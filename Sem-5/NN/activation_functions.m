@@ -12,7 +12,7 @@ y_identity = x; % Identity function
 
 % Create figure for subplots
 figure;
-suptitle('Activation Functions');
+sgtitle('Activation Functions'); % Use sgtitle instead of suptitle
 
 % Plot sin(x)
 subplot(3, 3, 1);
